@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+
         h1{
-          text-align: center;  
+            text-align: center;  
         }
 
         .button{
@@ -26,7 +36,7 @@
         }
         
         .button1{
-            background-color: wheat;
+            background-color: coral;           
             width: 200px;
             height: 40px;
         }
@@ -43,8 +53,8 @@
     <h1>Website pengaduan MUTU</h1>
 
     <div class="button">
-        <button class="button1"><a href="">Buat Pengaduan</a></button>
-        <button class="button2"><a href="">Cari Pengaduan</a></button>
+        <button class="button1"><a href="halaman-pengaduan.php">Buat Pengaduan</a></button>
+        <button class="button2"><a href="cari-pengaduan.php">Cari Pengaduan</a></button>
     </div>
 </body>
 </html>
